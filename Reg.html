@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get">
+          <table>
+               <tr>  
+                    <td>  <label for="un">Username:</label> </td>
+                    <td> <input type="text" name="uname" id="un"> </td>
+               </tr>
+               <tr>
+                  <td>  <label for="pwd">Password:</label> </td>
+                  <td>   <input type="password" name="upass" id="pwd"> </td>
+               </tr>
+               <tr>
+                  <td> Gender : </td>
+                  <td> <input type="radio" name="gender" value="Male"> Male 
+                       <input type="radio" name="gender" value="Female"> Female
+                 </td>
+               </tr>
+               <tr>
+                   <td> Enter  DOB: </td>
+                   <td> <input type="date" name="dob"> </td>
+               </tr>
+               <tr>
+                    <td> Enter Mob:</td>
+                    <td> <input type="number" name="mob"> </td>
+               </tr>
+               <tr>
+                   <td> Select City: </td>
+                   <td>   
+                       <select name="city">
+                           <option value=""> select city </option>
+                           <option value="gwalior"> Gwalior </option>
+                           <option value="pune"> Pune </option>
+                           <option value="mumbai"> Mumbai </option>
+                           <option value="delhi"> Delhi </option>
+                       </select>
+                   </td>
+               </tr>
+               <tr>
+                <td> Select City: </td>
+                <td>   
+                    <select name="city" multiple>
+                        <option value=""> select city </option>
+                        <option value="gwalior"> Gwalior </option>
+                        <option value="pune"> Pune </option>
+                        <option value="mumbai"> Mumbai </option>
+                        <option value="delhi"> Delhi </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> Language you know: </td>
+                <td>
+                      <input type="checkbox" name="lang1" value="hi"> Hindi 
+                      <input type="checkbox" name="lang2" value="eng"> English
+                      <input type="checkbox" name="lang3" value="oth"> Other
+                </td>
+            </tr>
+
+            <tr>
+                <td>Enter Email Id:</td>
+                <td> <input type="email" name="mail"> </td>
+            </tr>
+
+            <tr>
+                <td>Upload File</td>
+                <td> <input type="file" name="" id=""> </td>
+            </tr>
+
+            <tr>
+                 <td> Enter Message:</td>
+                 <td> 
+                      <textarea name="msg" cols="30" rows="8"></textarea> 
+                </td>
+            </tr>
+            <tr>
+                   <td> </td>
+                   <td> 
+                    <input type="submit" value="Login">
+                    <input type="reset" value="Clear"> 
+                   </td>
+            </tr>
+          </table>
+    </form>
+</body>
+</html>
